@@ -19,7 +19,7 @@ async def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
         [KeyboardButton(
             text="Open AVAX Transfer Mini App", 
-            web_app=WebAppInfo(url="https://avax-bot.vercel.app/")  
+            web_app=WebAppInfo(url="https://avax-tg-mini-app.vercel.app/")  
         )]
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
